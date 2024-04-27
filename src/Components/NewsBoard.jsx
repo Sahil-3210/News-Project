@@ -7,7 +7,7 @@ const NewsBoard = ({category}) => {
 
   useEffect(() => {
     fetchNews();
-  }, []);
+  }, [category]);
 
   const fetchNews = async () => {
     
